@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+overflow: hidden    ;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+}
+.container{
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    border: 1px solid #7379CB;
+    border-radius: 20px;
+    height: 470px;
+ box-shadow: 
+                0 25px 50px rgba(0, 0, 0, 0.15),
+                0 0 0 1px rgba(255, 255, 255, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+                backdrop-filter: blur(10px);
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+justify-content: space-evenly;
+margin-left: 100px;
+   
+}
+
+.container h2 , p.mess{
+    text-align: center;
+    color: white;
+}
+.container h2{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+input::placeholder{
+    color: #D0CAE7;
+    font-size: 15px;
+    margin: 10px 0;
+}
+label{
+    color: white;
+}
+
+.icon{
+    position: absolute;
+    left: 25%;
+    bottom: 59%;
+
+
+}
+.iconn{
+    position: absolute;
+    left: 25%;
+    bottom: 43%;
+    
+
+}
+
+form input[type="email"],
+form input[type="password"]
+
+{
+    width: 60%;
+    padding: 10px 40px;
+    margin: 10px 0; 
+    border-radius: 10px;
+    border:1px solid #AEADDF;
+    background-color: #B398CE;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+
+form input[type="email"]:focus,
+form input[type="password"]:focus{
+     outline: none;
+            border-color: rgba(255, 255, 255, 0.6);
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 
+                0 8px 25px rgba(0, 0, 0, 0.1),
+                0 0 0 4px rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+}
+
+form input[type="email"]:hover,
+form input[type="password"]:hover{
+            outline: none;
+            border-color: rgba(255, 255, 255, 0.6);
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 
+                0 8px 25px rgba(0, 0, 0, 0.1),
+                0 0 0 4px rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+}
+button.submit{
+    width: 80%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 10px;
+    border:1px solid #AEADDF;
+    background-color: #B398CE;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+#form{
+    margin-bottom: 10px;
+}
+#form .para{
+    right: 20%;
+    top: 60%;
+    position: absolute;
+}
+.message{
+    text-align: center;
+    color: white;
+}
+
+p{
+    color: white;
+}
+.message a{
+    color: white;
+}
+
+    

@@ -17,6 +17,16 @@ overflow: hidden    ;
                 0 0 0 1px rgba(255, 255, 255, 0.1),
                 inset 0 1px 0 rgba(255, 255, 255, 0.2);
                 backdrop-filter: blur(10px);
+                transition: all 0.3s ease-in-out;
+}
+
+
+.container:hover , .container:focus{
+  transform: translateY(-5px);
+            box-shadow: 
+                0 35px 60px rgba(0, 0, 0, 0.2),
+                0 0 0 1px rgba(255, 255, 255, 0.15),
+                inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
 .form-container{
@@ -72,6 +82,7 @@ form input[type="password"]
     outline: none;
     color: white;
     font-size: 15px;
+    transition: all 0.3s ease-in-out;
 }
 
 form input[type="email"]:focus,
@@ -113,6 +124,10 @@ button.submit{
     right: 20%;
     top: 60%;
     position: absolute;
+   
+}
+.form .para:hover{
+    cursor: pointer;
 }
 .message{
     text-align: center;
